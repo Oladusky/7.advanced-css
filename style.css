@@ -162,9 +162,6 @@ h1 {
     margin-bottom: 28px;
 }
 
-.skills_name {
-    
-}
 progress {
     height: 6px;
     width: 445px;
@@ -314,13 +311,14 @@ progress {
 .offer-text-main {
     text-align: center;
     max-width: 540px;
-    padding-top: 95px;
+    margin-top: 95px;
+    
     
 }
 
 .h2-form {
     font-size: 32px;
-    padding-bottom: 35px;
+    margin-bottom: 37px;
 }
 
 .text-form{
@@ -335,19 +333,22 @@ progress {
 }
 
 .offer-name, .offer-email {
-    padding: 20px 75px 15px 15px;   
+    padding: 15px 75px 15px 15px;   
 }
 
 .offer-section-text {   
     margin: 0 0 20px 5px;
+   
 }
 
-.offer-text {
-    margin: 0 auto;
-    width: 540px;
-    height: 175px;
+.text-area {
+   resize: none;
+   width: 540px;
+   height: 175px;
+   padding: 15px 0 15px 15px;
+   font-size: 14px;
+    
 }
-
 
 .button-2 {
     width: 190px;
@@ -357,14 +358,15 @@ progress {
     font-size: 16px;
     cursor: pointer;
     text-transform: uppercase;
-    margin-left: 173px;
-    margin-top: 26px;
+    margin-left: 175px;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 
 .button-2:hover {
     background-color: rgb(82, 154, 203);
 }
+    
 
 /*footer*/
 
