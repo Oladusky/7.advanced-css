@@ -417,7 +417,7 @@ progress {
 
 /* оптимизация */
    
-@media (max-width: 1250px) {
+@media screen and (max-width: 1250px) {
 
     nav ul {
         font-size: 16px;
@@ -429,6 +429,11 @@ progress {
         margin: 0 auto;
         
        
+    }
+
+    .description {
+        margin: 0 auto;
+        max-width: 400px;
     }
     
     .projects_40 {
@@ -447,8 +452,6 @@ progress {
     }
 
     .microsoft {
-        display: flex;
-        justify-content: space-between;
         max-width: 1250px;
         margin: 60px auto;
         padding: 10px 50px;
@@ -575,5 +578,3 @@ progress {
     
 }
 }
-
-
