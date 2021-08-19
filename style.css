@@ -237,7 +237,7 @@ progress {
     height: 100%;
     background-color: #34547A;
     opacity: 0%;
-    background-image: url(/img/view.svg);
+    background-image: url(img/view.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: opacity 0.3s;
@@ -334,6 +334,10 @@ progress {
     padding: 20px 75px 15px 15px;  
     background-color: #fff; 
     border: none;
+}
+
+.offer-name {
+    margin-right: 10px;
 }
 
 .offer-section-text {   
