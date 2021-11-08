@@ -9,7 +9,7 @@ let day = new Array("воскресенье","понедельник","втор�
 let month = new Array("января","февраля","марта","апреля","мая","июня",
 "июля","августа","сентября","октября","ноября","декабря");
  
-let fullDate = ("во" + " " + day[d.getDay()]+" " + d.getDate() + " " + month[d.getMonth()] + " " + d.getFullYear() + " года " + "в "+ d.getHours() + ":"+ d.getMinutes() + ":"+ d.getSeconds())
+let fullDate = ("в" + " " + day[d.getDay()]+" " + d.getDate() + " " + month[d.getMonth()] + " " + d.getFullYear() + " года " + "в "+ d.getHours() + ":"+ d.getMinutes() + ":"+ d.getSeconds())
     localStorage.setItem('date', JSON.stringify(fullDate));
     return fullDate;
     }

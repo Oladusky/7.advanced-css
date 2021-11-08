@@ -22,12 +22,12 @@ btn.addEventListener("click", sendRequest);
 
 function formatOutput(data) {
     let task;
-        if (`${data[3].completed}`) {
-            task = `<s>${data[2].title}</s>`
-        } else {
-            task = `${data[2].title}`
-        }
-    
+    if (`${data[3].completed}`) {
+        task = `${data[2].title}`
+    } else {
+        task = `<s>${data[2].title}</s>`
+    }
+
     let output = '';
     data.forEach(item => {
         let cardBlock = `
